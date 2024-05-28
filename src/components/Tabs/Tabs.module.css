@@ -1,0 +1,20 @@
+.tabs {
+    background-color: #FFAA4C;
+}
+.item {
+    display: inline-block;
+    cursor: pointer;
+    color: #181818;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+.item:hover:not(.item_active) {
+    background-color: #954CED;
+    border-radius: 20px 20px 0 0;
+    color: #fff;
+}
+.item_active {
+    border-radius: 20px 20px 0 0;
+    background-color: #181818;
+    color: #fff;
+}

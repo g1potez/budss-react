@@ -1,0 +1,202 @@
+/* main */
+.main {
+    height: 700px;
+}
+.main__inner {
+    position: relative;
+}
+.main__blockText {
+    max-width: 650px;
+    width: 100%;
+}
+.main__text__margin {
+    margin-bottom: 50px;
+}
+.main__blockWoman {
+    position: absolute;
+    z-index: -1;
+    right: 40px;
+    top: 0;
+    width: 650px;
+}
+.main__imageLine {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    width: 1200px;
+}
+
+/* about */
+.about__container {
+    position: relative;
+    overflow-y: clip;
+}
+.about__title {
+    margin-bottom: 100px;
+}
+.about__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.about__blockText {
+    width: 400px;
+}
+.about__blockList {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about__blockItem {
+    width: 50%;
+    margin-bottom: 80px;
+}
+.about__blockItem h3 {
+    margin: 10px 0;
+}
+.about__itemImage {
+    width: 80px;
+    height: 80px;
+}
+.about__line {
+    position: absolute;
+    z-index: -1;
+    bottom: -160px;
+    left: -300px;
+    width: 600px;
+}
+
+/* statistic */
+.statistic {
+    padding: 50px 0;
+    background-color: #954CED;
+}
+.statistic__inner {
+    display: flex;
+    justify-content: space-around;
+}
+.statistic__block h2 {
+    font-size: 80px;
+}
+.statistic__block p {
+    font-size: 24px;
+}
+
+/* why */
+.why__title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.why__inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+.why__block {
+    width: 40%;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    padding: 50px;
+    overflow: hidden;
+}
+.why__block.block__one {
+    width: 50%;
+    justify-content: flex-end;
+}
+.why__block.block__one .why__blockImage {
+    left: 0;
+    max-width: 350px;
+}
+.why__block.block__two {
+    width: 30%;
+}
+.why__block.block__three {
+    width: 45%;
+}
+.why__block.block__four {
+    width: 35%;
+}
+.why__blockText {
+    max-width: 360px;
+    position: relative;
+    z-index: 2;
+}
+.why__blockText * {
+    color: #181818;
+}
+.why__blockImage {
+    max-width: 250px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* slogan */
+.slogan {
+    background-color: #fff;
+}
+.slogan__inner {
+    border: 1px solid #CFCFCF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border-radius: 50px;
+}
+.slogan__title {
+    margin-bottom: 30px;
+    color: #181818;
+    text-align: center;
+}
+
+/* links */
+.links {
+    background-color: #fff;
+}
+.links__text {
+    max-width: 900px;
+    width: 100%;
+    margin-right: 30px;
+}
+.links__text * {
+    color: #181818;
+}
+.links__inner {
+    display: flex;
+    align-items: center;
+}
+.links__buttons {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.links__buttonsImage {
+    padding: 15px;
+    border-radius: 100px;
+    position: relative;
+}
+.links__image {
+    width: 50px;
+    height: 50px;
+}
+.links__buttonsImage#twitter, .links__buttonsImage#tiktok {
+    top: 70px;
+}
+
+/* brands */
+.brands {
+    background-color: #fff;
+}
+.brands__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.brands__item {
+    width: 250px;
+    margin-bottom: 50px;
+}
